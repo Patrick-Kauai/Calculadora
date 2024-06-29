@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assents/icons/icon.png">
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+
+    <input type="text" id="screen">
+    <section class="Keyboard">
+
+        <input id="Key_parenthesis1" class="Key auxiliary" type="button" value="&#40">
+        <input id="Key_parenthesis2" class="Key auxiliary" type="button" value="&#41">
+        <input id="Key_Point" class="Key auxiliary" type="button" value="&#46">
+        <input id="Key Div" class="Key auxiliary"  type="button" value="&#47">
+        <input id="K7" class="Key number" type="button" value="7">
+        <input id="K8" class="Key number" type="button" value="8">
+        <input id="K9" class="Key number" type="button" value="9">
+        <input id="Key_Mult" class="Key auxiliary" type="button" value="&#42">
+        <input id="K4" class="Key number" type="button" value="4">
+        <input id="K5" class="Key number" type="button" value="5">
+        <input id="K6" class="Key number" type="button" value="6">
+        <input id="Key_Ad" class="Key auxiliary" type="button" value="&#43">
+        <input id="K1" class="Key number" type="button" value="1">
+        <input id="K2" class="Key number" type="button" value="2">
+        <input id="K3" class="Key number" type="button" value="3">
+        <input id="Key_Sub" class="Key auxiliary" type="button" value="&#45">
+        <input id="Key_Clear" onclick="AllClear()" type="button" value="AC"> 
+        <input id="K0" class="Key number" type="button" value="0">
+        <input id="Key_Delete" onclick="CancelEntry()" type="button" value="CE">
+        <input id="Key_Result" onclick="ResultKey()" type="button" value="&#61"> 
+
+    </section>
+    
+    <script src="calculadora.js"></script>
+
+</body>
+</html>
